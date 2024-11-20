@@ -4,16 +4,16 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="bg-primaryBlue py-20 text-center">
-      <h1 className="text-4xl font-bold mb-12">Contact me</h1>
+      <h1 className="text-3xl text-center font-extrabold text-primaryBlue mb-10">Contact me</h1>
       <div className="flex flex-col items-center gap-6">
-        {/* Social Links */}
-        <div className="bg-blue-100 p-4 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-16">
+
+        <div className="bg-gradient-to-r from-pink-300 to-pink-100 p-4 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-16">
           {/* GitHub */}
           <a
-            href="https://github.com"
+            href="https://github.com/ThidalakMuaengphaen/resume.git"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-row items-center text-accen text-2xl hover:bg-pink-200 p-3 rounded-lg"
+            className="flex flex-row items-center text-accen text-2xl hover:bg-blue-200 p-3 rounded-lg"
             aria-label="GitHub"
           >
             <FaGithub />
@@ -22,10 +22,10 @@ const Contact: React.FC = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/thidalak-mueangphaen-111140316/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-row items-center text-accent text-2xl hover:bg-pink-200 p-3 rounded-lg"
+            className="flex flex-row items-center text-accent text-2xl hover:bg-blue-200 p-3 rounded-lg"
             aria-label="LinkedIn"
           >
             <FaLinkedin />
@@ -34,8 +34,8 @@ const Contact: React.FC = () => {
 
           {/* Email */}
           <a
-            href="mailto:youremail@example.com"
-            className="flex flex-row items-center text-accent text-2xl hover:bg-pink-200 p-3 rounded-lg"
+            href="mailto:thidalak.m@kkumail.com"
+            className="flex flex-row items-center text-accent text-2xl hover:bg-blue-200 p-3 rounded-lg"
             aria-label="Email"
           >
             <FaEnvelope />

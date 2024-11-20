@@ -4,9 +4,8 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-primaryBlue py-20 px-6">
+    <section className="bg-primaryBlue py-20 px-6 mt-20">
       <div className="container mx-auto max-w-screen-lg flex flex-col md:flex-row items-center md:justify-between">
-        {/* Image Section */}
         <Image
           className="w-full md:w-1/4 rounded-lg"
           src="/image/profile.png"
@@ -24,9 +23,7 @@ const Hero: React.FC = () => {
             I am dedicated to continuously improving my skills in programming languages, striving to enhance myself every day ”
           </p>
 
-          {/* Flex container for button and icons */}
           <div className="flex items-center gap-6 mb-6 justify-center md:justify-start">
-            {/* View My Work Button */}
             <a
               href="#experience"
               className="bg-blue-200 py-3 px-4 rounded-full hover:bg-pink-200 transition duration-300"
@@ -37,7 +34,7 @@ const Hero: React.FC = () => {
             {/* Social Media Links */}
             <div className="flex gap-4" aria-label="Social Media Links">
               <a
-                href="https://github.com"
+                href="https://github.com/ThidalakMuaengphaen/resume.git"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-primaryBlue text-2xl"
@@ -46,7 +43,7 @@ const Hero: React.FC = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/thidalak-mueangphaen-111140316/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-accent hover:text-primaryBlue text-2xl"
@@ -55,7 +52,7 @@ const Hero: React.FC = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="mailto:youremail@example.com"
+                href="mailto:thidalak.m@kkumail.com"
                 className="text-accent hover:text-primaryBlue text-2xl"
                 aria-label="Email"
               >
