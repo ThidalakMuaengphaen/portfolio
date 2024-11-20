@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#experience"
-              className="block text-lg hover:bg-blue-700 p-2 rounded"
+              className="block text-lg hover:bg-blue-300 p-2 rounded"
               onClick={toggleMenu}
             >
               Awards & work experience
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#skills"
-              className="block text-lg hover:bg-blue-700 p-2 rounded"
+              className="block text-lg hover:bg-blue-300 p-2 rounded"
               onClick={toggleMenu}
             >
               Skills
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#education"
-              className="block text-lg hover:bg-blue-700 p-2 rounded"
+              className="block text-lg hover:bg-blue-300 p-2 rounded"
               onClick={toggleMenu}
             >
               Education
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#contact"
-              className="block text-lg hover:bg-blue-700 p-2 rounded"
+              className="block text-lg hover:bg-blue-300 p-2 rounded"
               onClick={toggleMenu}
             >
               Contact
