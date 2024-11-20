@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="bg-primaryBlue py-20 text-center">
-      <h1 className="text-3xl text-center font-extrabold text-primaryBlue mb-10">Contact me</h1>
+    <section id="contact" className="py-20 text-center">
+      <h1 className="text-gray-700 text-3xl text-center font-extrabold text-primaryBlue mb-10">Contact me</h1>
       <div className="flex flex-col items-center gap-6">
 
         <div className="bg-gradient-to-r from-pink-300 to-pink-100 p-4 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-16">

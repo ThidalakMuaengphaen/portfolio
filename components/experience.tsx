@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Experience: React.FC = () => {
   return (
-    <section id="experience" className="bg-primaryBlue py-20">
-      <h2 className="text-3xl font-extrabold text-primaryBlue mb-10 ml-32">Awards & work experience</h2>
+    <section id="experience" className="py-20">
+      <h2 className="text-3xl text-gray-700 font-extrabold  mb-10 ml-32">Awards & work experience</h2>
 
       {/*project1*/}
       <div className="bg-blue-100 ml-32 mr-28 mb-8 text-primaryBlue p-4 rounded-lg shadow-md">

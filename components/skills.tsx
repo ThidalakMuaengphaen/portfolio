@@ -3,7 +3,7 @@ import React from "react";
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="py-20">
-      <h2 className="text-3xl text-center font-extrabold text-primaryBlue mb-10">Skills</h2>
+      <h2 className="text-gray-700 text-3xl text-center font-extrabold mb-10">Skills</h2>
       <div className="container mx-auto grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="bg-pink-100 ml-32 text-primaryBlue p-6 rounded-lg shadow-md flex flex-col h-full">
           <h3 className="text-blue-500 text-xl font-bold text-center mt-2 mb-5">HARD SKILLS</h3>

@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const Education: React.FC = () => {
   return (
-    <section id="education" className="py-20 bg-gray-50">
-      <h2 className="text-3xl text-center font-extrabold text-primaryBlue mb-10">
+    <section id="education" className="py-20">
+      <h2 className="text-3xl text-gray-700 text-center font-extrabold  mb-10">
         Education
       </h2>
 

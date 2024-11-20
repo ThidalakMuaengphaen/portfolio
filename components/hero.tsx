@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <section className="bg-primaryBlue py-20 px-6 mt-20">
+    <section className="py-20 px-6 mt-20">
       <div className="container mx-auto max-w-screen-lg flex flex-col md:flex-row items-center md:justify-between">
         <Image
           className="w-full md:w-1/4 rounded-lg"
@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           <div className="flex items-center gap-6 mb-6 justify-center md:justify-start">
             <a
               href="#experience"
-              className="bg-blue-200 py-3 px-4 rounded-full hover:bg-pink-200 transition duration-300"
+              className="text-gray-700 bg-blue-200 py-3 px-4 rounded-full hover:bg-pink-200 transition duration-300"
             >
               View My Work
             </a>
