@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Hero: React.FC = () => {
   return (
-    <section className="py-20 px-6 mt-20">
+    <section id="hero" className="py-20 px-6 mt-20">
       <div className="container mx-auto max-w-screen-lg flex flex-col md:flex-row items-center md:justify-between">
         <Image
           className="w-full md:w-1/4 rounded-lg"

@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-gradient-to-r from-blue-500 to-primaryBlue p-4 shadow-lg fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-white text-2xl font-bold ml-8">noeynoey</h1>
+        <h1 className="text-white text-2xl font-bold ml-8"><a href="#hero">noeynoey</a></h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
