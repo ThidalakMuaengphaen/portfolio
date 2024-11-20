@@ -12,14 +12,14 @@ const Navbar: React.FC = () => {
     <nav className="bg-gradient-to-r from-blue-500 to-primaryBlue p-4 shadow-lg fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-white text-2xl font-bold ml-8">noeynoey</h1>
+        <h1 className="text-gray-700 text-2xl font-bold ml-8">noeynoey</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6">
           <li>
             <a
               href="#experience"
-              className="text-white hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
+              className="text-gray-700 hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
             >
               Awards & work experience
             </a>
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#skills"
-              className="text-white hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
+              className="text-gray-700 hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
             >
               Skills
             </a>
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#education"
-              className="text-white hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
+              className="text-gray-700 hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
             >
               Education
             </a>
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
           <li>
             <a
               href="#contact"
-              className="text-white hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
+              className="text-gray-700 hover:bg-blue-100 p-3 rounded-lg active:text-blue-600"
             >
               Contact
             </a>
@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="text-white text-2xl md:hidden focus:outline-none"
+          className="text-gray-700 text-2xl md:hidden focus:outline-none"
           onClick={toggleMenu}
         >
           {isMenuOpen ? <FaTimes /> : <FaBars />}
@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <ul className="bg-blue-600 text-white space-y-4 py-6 px-6 md:hidden absolute top-16 left-0 w-full shadow-md">
+        <ul className="bg-blue-100 text-gray-700 space-y-4 py-6 px-6 md:hidden absolute top-16 left-0 w-full shadow-md">
           <li>
             <a
               href="#experience"
