@@ -183,7 +183,7 @@ const Experience: React.FC = () => {
       {/*project5*/}
       <div className="bg-blue-100 ml-32 mr-28 mb-8 text-primaryBlue p-4 rounded-lg shadow-md">
         <div className="flex justify-between items-center">
-          <h3 className="text-xl ml-6 mb-1 mt-4 font-bold">Why can't I be myself? (Game)</h3>
+          <h3 className="text-xl ml-6 mb-1 mt-4 font-bold">Why cannot I be myself? (Game)</h3>
           <h3 className="text-m mr-6 mt-4 font-bold">NOV 2022 - APR 2023</h3>
         </div>
 
@@ -191,7 +191,7 @@ const Experience: React.FC = () => {
         <ul className="space-y-4 text-lg">
           <li className="flex items-start ml-6">
             <span className="mr-2">•</span>
-            Advanced to the second round of the 25's NSC 2023.
+            Advanced to the second round of the 25s NSC 2023.
           </li>
           <li className="flex items-start ml-6">
             <span className="mr-2">•</span>
